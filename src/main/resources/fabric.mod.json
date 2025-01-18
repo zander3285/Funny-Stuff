@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "funny_stuff",
+	"version": "${version}",
+	"name": "Funny Stuff",
+	"description": "Мод от вашего любимого Дамирчика, добавляет весёлые штучки ;)",
+	"authors": [
+		"_zander46_"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/funny_stuff/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net._zander46_.funnystuff.FunnyStuff"
+		],
+		"fabric-datagen": [
+			"net._zander46_.funnystuff.FunnyStuffDataGenerator"
+		],
+		"client": [
+			"net._zander46_.funnystuff.FunnyStuffClient"
+		]
+	},
+	"mixins": [
+		"funny_stuff.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
