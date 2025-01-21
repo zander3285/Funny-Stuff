@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "@": {
+      "item": "funny_stuff:plastic"
+    }
+  },
+  "pattern": [
+    "   ",
+    "@ @",
+    " @ "
+  ],
+  "result": {
+    "count": 4,
+    "id": "funny_stuff:ziploc"
+  },
+  "show_notification": true
+}

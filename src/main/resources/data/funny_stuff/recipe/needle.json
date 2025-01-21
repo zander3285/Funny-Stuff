@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "*": {
+      "item": "minecraft:iron_nugget"
+    },
+    "@": {
+      "item": "minecraft:glass"
+    }
+  },
+  "pattern": [
+    "  @",
+    " @ ",
+    "*  "
+  ],
+  "result": {
+    "count": 2,
+    "id": "funny_stuff:needle"
+  },
+  "show_notification": true
+}

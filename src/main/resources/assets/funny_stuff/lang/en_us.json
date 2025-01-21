@@ -1,3 +1,23 @@
 {
-  "item.funny_stuff.cocaine": "Cocaine"
+  "item.funny_stuff.cocaine": "Cocaine",
+  "item.funny_stuff.heroine": "Heroine",
+  "item.funny_stuff.meth": "Meth",
+  "item.funny_stuff.ziploc": "Ziploc",
+  "item.funny_stuff.needle": "Needle",
+  "item.funny_stuff.diropper": "Diropper",
+  "item.funny_stuff.iropper": "Iropper",
+  "item.funny_stuff.blue_crystal": "Blue crystal",
+  "item.funny_stuff.plastic": "Plastic",
+  "item.funny_stuff.resin": "Resin",
+  "item.funny_stuff.liquid_gold": "Liquid gold",
+
+
+  "effect.funny_stuff.cocaine_good": "Good Trip",
+  "effect.funny_stuff.cocaine_bad": "Bad Trip",
+
+  "effect.funny_stuff.heroine_good": "Good Trip",
+  "effect.funny_stuff.heroine_bad": "Bad Trip",
+
+
+  "itemgroup.funny_stuff.funny_stuff_items": "Funny Stuff"
 }

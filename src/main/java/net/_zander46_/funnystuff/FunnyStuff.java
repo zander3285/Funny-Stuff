@@ -1,5 +1,7 @@
 package net._zander46_.funnystuff;
 
+import net._zander46_.funnystuff.effect.ModEffects;
+import net._zander46_.funnystuff.item.ModItemGroups;
 import net._zander46_.funnystuff.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,6 +14,10 @@ public class FunnyStuff implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
+		ModEffects.registerEffects();
+
 		ModItems.registerModItems();
 	}
 }

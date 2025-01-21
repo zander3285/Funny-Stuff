@@ -1,3 +1,23 @@
 {
-  "item.funny_stuff.cocaine": "Пакетик кокаина"
+  "item.funny_stuff.cocaine": "Пакетик кокаина",
+  "item.funny_stuff.heroine": "Игла с героином",
+  "item.funny_stuff.meth": "Пакетик мефа",
+  "item.funny_stuff.ziploc": "Зиплок",
+  "item.funny_stuff.needle": "Шприц",
+  "item.funny_stuff.diropper": "Алмелезный слиток",
+  "item.funny_stuff.iropper": "Мелезный слиток",
+  "item.funny_stuff.blue_crystal": "Синий кристалл",
+  "item.funny_stuff.plastic": "Пластик",
+  "item.funny_stuff.resin": "Резина",
+  "item.funny_stuff.liquid_gold": "Жидкое золото",
+
+
+  "effect.funny_stuff.cocaine_good": "Кокаиновый кайф",
+  "effect.funny_stuff.cocaine_bad": "Кокаиновый отходняк",
+
+  "effect.funny_stuff.heroine_good": "Героиновый кайф",
+  "effect.funny_stuff.heroine_bad": "Героиновый отходняк",
+
+
+  "itemgroup.funny_stuff.funny_stuff_items": "Весёлые штучки"
 }
