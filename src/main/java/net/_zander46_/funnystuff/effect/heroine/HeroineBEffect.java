@@ -14,10 +14,6 @@ public class HeroineBEffect extends StatusEffect {
 
 
 
-    @Override
-    public StatusEffect requires(FeatureFlag... requiredFeatures) {
-        return super.requires(requiredFeatures);
-    }
 
     @Override
     public void onRemoved(AttributeContainer attributeContainer) {

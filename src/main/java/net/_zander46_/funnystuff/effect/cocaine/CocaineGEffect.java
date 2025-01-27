@@ -16,10 +16,6 @@ public class CocaineGEffect extends StatusEffect {
         super(category, color);
     }
 
-    @Override
-    public StatusEffect requires(FeatureFlag... requiredFeatures) {
-        return super.requires(requiredFeatures);
-    }
 
     @Override
     public void onApplied(LivingEntity entity, int amplifier) {

@@ -5,11 +5,9 @@ import net._zander46_.funnystuff.effect.ModEffects;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.attribute.AttributeContainer;
 import net.minecraft.entity.damage.DamageSource;
-import net.minecraft.entity.damage.DamageSources;
-import net.minecraft.entity.damage.DamageType;
-import net.minecraft.entity.damage.DamageTypes;
-import net.minecraft.entity.effect.*;
-import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.entity.effect.StatusEffect;
+import net.minecraft.entity.effect.StatusEffectCategory;
+import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.resource.featuretoggle.FeatureFlag;
 
 public class HeroineGEffect extends StatusEffect {
@@ -18,10 +16,6 @@ public class HeroineGEffect extends StatusEffect {
         super(category, color);
     }
 
-    @Override
-    public StatusEffect requires(FeatureFlag... requiredFeatures) {
-        return super.requires(requiredFeatures);
-    }
 
     @Override
     public void onApplied(LivingEntity entity, int amplifier) {
@@ -41,7 +35,7 @@ public class HeroineGEffect extends StatusEffect {
     public void onRemoved(AttributeContainer attributeContainer) {
         DamageSource damageSource = entity.getDamageSources().magic();
         entity.damage(damageSource, 2.0F);
-        entity.addStatusEffect(new StatusEffectInstance(ModEffects.HEROINE_BAD, 1200));
+        entity.addStatusEffect(new StatusEffectInstance(ModEffects.HEROINE_BAD, 120));
         super.onRemoved(attributeContainer);
     }
 

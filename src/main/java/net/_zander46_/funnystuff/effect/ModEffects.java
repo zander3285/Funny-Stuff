@@ -17,28 +17,24 @@ import net.minecraft.util.Identifier;
 public class ModEffects {
     public static final RegistryEntry<StatusEffect> COCAINE_GOOD = registerStatusEffect("cocaine_good",
             new CocaineGEffect(StatusEffectCategory.BENEFICIAL,3402751)
-                    .requires()
                     .addAttributeModifier(EntityAttributes.GENERIC_MOVEMENT_SPEED, Identifier.of(FunnyStuff.MOD_ID, "cocaine_good"), 0.7F,
                             EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
 
 
     public static final RegistryEntry<StatusEffect> COCAINE_BAD = registerStatusEffect("cocaine_bad",
             new CocaineBEffect(StatusEffectCategory.HARMFUL,3402751)
-                    .requires()
                     .addAttributeModifier(EntityAttributes.GENERIC_MOVEMENT_SPEED, Identifier.of(FunnyStuff.MOD_ID, "cocaine_bad"), -0.7F,
                             EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
 
     public static final RegistryEntry<StatusEffect> HEROINE_GOOD = registerStatusEffect("heroine_good",
-            new HeroineGEffect(StatusEffectCategory.BENEFICIAL,3402751)
-                    .requires()
-                    .addAttributeModifier(EntityAttributes.GENERIC_ATTACK_SPEED, Identifier.of(FunnyStuff.MOD_ID, "heroine_good"), 50.0F,
+            new HeroineGEffect(StatusEffectCategory.BENEFICIAL,14270531)
+                    .addAttributeModifier(EntityAttributes.PLAYER_BLOCK_BREAK_SPEED, Identifier.of(FunnyStuff.MOD_ID, "heroine_good"), 5.0F,
                             EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
 
 
     public static final RegistryEntry<StatusEffect> HEROINE_BAD = registerStatusEffect("heroine_bad",
-            new HeroineBEffect(StatusEffectCategory.HARMFUL,3402751)
-                    .requires()
-                    .addAttributeModifier(EntityAttributes.GENERIC_ATTACK_SPEED, Identifier.of(FunnyStuff.MOD_ID, "heroine_bad"), -20.7F,
+            new HeroineBEffect(StatusEffectCategory.HARMFUL,14270531)
+                    .addAttributeModifier(EntityAttributes.PLAYER_BLOCK_BREAK_SPEED, Identifier.of(FunnyStuff.MOD_ID, "heroine_bad"), -5.0F,
                             EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
 
 

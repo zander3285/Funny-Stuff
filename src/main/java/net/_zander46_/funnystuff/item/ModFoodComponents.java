@@ -8,7 +8,7 @@ import net.minecraft.entity.effect.StatusEffects;
 
 public class ModFoodComponents {
     public static final FoodComponent HEROINE = new FoodComponent.Builder().nutrition(2).saturationModifier(0.3f)
-            .alwaysEdible().statusEffect(new StatusEffectInstance(ModEffects.HEROINE_GOOD, 1200), 1.0f).build();
+            .alwaysEdible().statusEffect(new StatusEffectInstance(ModEffects.HEROINE_GOOD, 120), 1.0f).build();
 
 
     public static final FoodComponent COCAINE = new FoodComponent.Builder().nutrition(2).saturationModifier(0.3f)
