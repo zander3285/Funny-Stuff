@@ -18,6 +18,9 @@
   "effect.funny_stuff.heroine_good": "Good Trip",
   "effect.funny_stuff.heroine_bad": "Bad Trip",
 
+  "block.funny_stuff.varilka": "Brewer",
+  "screen.funny_stuff.varilka_screen": "Brewer",
+
 
   "itemgroup.funny_stuff.funny_stuff_items": "Funny Stuff"
 }

@@ -1,6 +1,7 @@
 package net._zander46_.funnystuff.item;
 
 import net._zander46_.funnystuff.FunnyStuff;
+import net._zander46_.funnystuff.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -26,6 +27,7 @@ public class ModItemGroups {
                         entries.add(ModItems.IROPPER);
                         entries.add(ModItems.DIROPPER);
                         entries.add(ModItems.LIQUID_GOLD);
+                        entries.add(ModBlocks.VARILKA);
 
                     })
                     .build());

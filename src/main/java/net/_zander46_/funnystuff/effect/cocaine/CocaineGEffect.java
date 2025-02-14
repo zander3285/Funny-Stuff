@@ -8,7 +8,6 @@ import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.resource.featuretoggle.FeatureFlag;
 
 public class CocaineGEffect extends StatusEffect {
     private LivingEntity entity;
